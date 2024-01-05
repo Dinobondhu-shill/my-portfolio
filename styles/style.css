@@ -253,20 +253,47 @@ margin: 50px 0 110px;
 Resume Part End
 ======================*/
 /*==================== 
-Header Part Start
+footer Part Start
 ======================*/
+footer{
+  background-color: #FFF8F3;
+  display: flex;
+  justify-content: space-between;
+  padding:130px 100px 50px;
+}
+
+.footer_left ul{
+  display: flex;
+  gap: 25px;
+  color: #FD6E0A;
+}
+
+.footer_left p{
+  width: 560px;
+  margin: 20px 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.input_field{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input_field input,textarea{
+  border: none;
+  background-color: #FFFFFF;
+  color: #757575;
+  padding: 8px;
+  font-weight: 500;
+
+}
+.footer_right button{
+  border: none;
+  margin: 30px;
+}
 /*==================== 
-Header Part End
-======================*/
-/*==================== 
-Header Part Start
-======================*/
-/*==================== 
-Header Part End
-======================*/
-/*==================== 
-Header Part Start
-======================*/
-/*==================== 
-Header Part End
+footer Part End
 ======================*/
