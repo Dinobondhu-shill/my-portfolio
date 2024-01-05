@@ -30,6 +30,14 @@ a{
   font-family: 'Open Sans', sans-serif;
 
 }
+.section_description {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  margin: 30px 0;
+}
 /*==================== 
   Common CSS End
 ======================*/
@@ -135,14 +143,7 @@ main{
   padding: 130px;
   border-radius: 10px;
 }
-.about p{
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #757575;
-  margin: 30px 0;
-}
+
 .about_info_container{
   display: flex;
   justify-content: space-between;
@@ -167,10 +168,44 @@ main{
 ======================*/
 
 /*==================== 
-Header Part Start
+    Skills Part Start
 ======================*/
+#skills{
+  margin: 130px 0;
+}
+.skills_div{
+  display: flex;
+  justify-content: space-between;
+}
+.skills_pera{
+  width: 910px;
+  margin: 0 auto;
+}
+.skill_card{
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+.skill_card_text{
+  margin-top: 30px;
+  width: 200px;
+}
+.skill_card_text h4{
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.skill_card_text p{
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
 /*==================== 
-Header Part End
+    Skills Part End
 ======================*/
 /*==================== 
 Header Part Start
