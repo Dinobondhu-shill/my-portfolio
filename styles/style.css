@@ -13,6 +13,15 @@ ul,ol{
 a{
   text-decoration: none;
 }
+.common_button{
+  padding: 12px 25px;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
 /*==================== 
   Common CSS End
 ======================*/
@@ -20,6 +29,9 @@ a{
 /*==================== 
     Header Part Start
 ======================*/
+header{
+  background-color: #FFF8F3;
+}
 nav{
   display: flex;
   justify-content: space-around;
@@ -47,14 +59,47 @@ nav ul li a{
   font-weight: 400;
   color: #484747;
 }
-.common_button{
-  padding: 18px 35px;
-  background-color: #FD6E0A;
-  border-radius: 5px;
-  font-size: 20px;
-  color: #fff;
-  font-weight: bold;
+
+.banner{
+  display: flex;
+  padding-top: 185px;
+}
+.banner_text h3{
   font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: #474747;
+  padding-bottom: 5px;
+}
+.banner_text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.banner_text p{
+  width: 585px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  padding-bottom: 30px;
+}
+.banner_button{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 180px;
+}
+.banner_button .contact{
+  background-color: transparent;
+  border: 1px solid #FD6E0A;
+  color: #FD6E0A;
+  transition: .3s;
+}
+.banner_button i{
+  font-weight: 500;
 }
 /*==================== 
     Header Part End
