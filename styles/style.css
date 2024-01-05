@@ -31,12 +31,16 @@ a{
 ======================*/
 header{
   background-color: #FFF8F3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-position: bottom right, bottom left;
+  background-repeat: no-repeat;
+
 }
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  padding: 50px 170px 0px 170px;
 }
 nav >a{
   font-size: 45px;
@@ -63,8 +67,9 @@ nav ul li a{
 .banner{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 40px;
-  padding-left: 220px;
+  padding-left: 170px;
  
 }
 .banner_text h3{
@@ -76,14 +81,14 @@ nav ul li a{
 }
 .banner_text h1{
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
 .banner_text p{
-  width: 585px;
+  width: 565px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -93,7 +98,6 @@ nav ul li a{
 .banner_button{
   display: flex;
   gap: 30px;
-  padding-bottom: 10px;
 }
 .banner_button .contact{
   background-color: transparent;
@@ -101,12 +105,8 @@ nav ul li a{
   color: #FD6E0A;
   transition: .3s;
 }
-.contact i{
-  background: transparent;
-}
 .banner_photo img{
   width: 450px;
-  background: url(../images/header_bg.png);
 }
 
 /*==================== 
